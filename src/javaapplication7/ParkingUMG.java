@@ -9,12 +9,12 @@ package javaapplication7;
  *
  * @author jake
  */
-public class ParqueosUMG extends javax.swing.JPanel {
+public class ParkingUMG extends javax.swing.JPanel {
 
     /**
      * Creates new form ParqueosUMG
      */
-    public ParqueosUMG() {
+    public ParkingUMG() {
         initComponents();
     }
 
