@@ -24,7 +24,7 @@ public class JavaApplication7 {
             public void run() {
                 JFrame frame = new JFrame();
                 frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-                frame.getContentPane().add(new ParqueosUMG());
+                frame.getContentPane().add(new ParkingsView());
                 frame.pack();
                 frame.setVisible(true);
             }
