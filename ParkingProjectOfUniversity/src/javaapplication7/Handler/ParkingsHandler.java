@@ -5,8 +5,9 @@
  */
 package javaapplication7.Handler;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Random;
-
 /**
  *
  * @author jake
@@ -15,6 +16,7 @@ public class ParkingsHandler {
     
     private static ParkingsHandler instance;
     public Random random = new Random();
+    private File PARKINGS = new File("/Users/jake/NetBeansProjects/JavaApplication7/src/javaapplication7/Handler/parking.txt");
     
     private ParkingsHandler() {
     
@@ -31,7 +33,9 @@ public class ParkingsHandler {
     
     private void newParking(String idParking, String username, int basement, 
             int parking, String hour, String date) {
-                        
+               
+        this.createDB(PARKINGS);
+        
     }
     
     private String generateParkingId() {
@@ -39,9 +43,15 @@ public class ParkingsHandler {
         random = new Random();
         
         return random.toString();
-    }
+    }    
     
-    
-    
-    
+    private void createDB(File file) {                
+        try {          
+            if(!file.exists()){
+                file.createNewFile();
+            }          
+        } catch (IOException ex) {            
+            System.out.println(ex.getMessage());
+        } 
+    }            
 }
