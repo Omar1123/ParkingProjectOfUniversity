@@ -5,6 +5,7 @@
  */
 package javaapplication7.Handler;
 
+import java.io.File;
 import java.util.Random;
 
 /**
@@ -15,6 +16,7 @@ public class ParkingsHandler {
     
     private static ParkingsHandler instance;
     public Random random = new Random();
+    private File file = new File("/Users/jake/NetBeansProjects/JavaApplication7/src/javaapplication7/Handler/parking.txt");
     
     private ParkingsHandler() {
     
