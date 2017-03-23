@@ -5,8 +5,11 @@
  */
 package javaapplication7.Handler;
 
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.util.Random;
 /**
  *
@@ -53,5 +56,23 @@ public class ParkingsHandler {
         } catch (IOException ex) {            
             System.out.println(ex.getMessage());
         } 
-    }            
+    } 
+    
+    private void createParking(File file,String username, int basement, int parking) {
+        try {
+          
+            if(!file.exists()){  
+                file.createNewFile();
+            }
+            
+            BufferedWriter writter =new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file,true), "utf-8"));
+            
+            writter.write(username + "," + basement + "," + parking);
+            writter.close();
+            
+        } catch (Exception ex) {
+          //Captura un posible error le imprime en pantalla 
+            System.out.println(ex.getMessage());
+        }         
+    }      
 }
