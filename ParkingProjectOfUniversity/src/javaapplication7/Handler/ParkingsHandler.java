@@ -23,6 +23,7 @@ public class ParkingsHandler {
     private static ParkingsHandler instance;
     public Random random = new Random();
     private File PARKINGS = new File("/Users/jake/NetBeansProjects/JavaApplication7/src/javaapplication7/Handler/parking.txt");
+    private int[][][] logicParking = new int[1][2][1];    
     
     private ParkingsHandler() {
     
@@ -86,4 +87,25 @@ public class ParkingsHandler {
         
         return random.toString();
     }  
+    
+    private void fillBasements() {        
+        for(int basement = 0; basement <= 3; basement++) {
+            for(int parking = 0; parking <= 11; parking++) {            
+                for(int place = 0; place <= 1; place++) {                        
+                    logicParking[basement][parking][place] = place;
+                }
+            }
+        }            
+    }
+    
+    private void showBasements() {
+        for(int basement = 0; basement <= 3; basement++) {
+            for(int parking = 0; parking <= 11; parking++) {            
+                for(int place = 0; place <= 1; place++) {                        
+                    System.out.println(logicParking[basement][parking][place]);
+                }
+            }
+        }             
+    }
+    
 }
