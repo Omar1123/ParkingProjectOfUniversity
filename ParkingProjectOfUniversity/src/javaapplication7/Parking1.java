@@ -1481,7 +1481,7 @@ public class Parking1 extends javax.swing.JFrame {
     }//GEN-LAST:event_s2p6StateChanged
 
     private void s2p7StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p7StateChanged
-        // TODO add your handling code here:
+
         boolean status = s2p7.isSelected();
         if(status){
             s2p7R.setBackground(Color.red);
