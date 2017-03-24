@@ -116,6 +116,7 @@ public class Parking1 extends javax.swing.JFrame {
         s3p2 = new javax.swing.JCheckBox();
         s3p1R = new javax.swing.JPanel();
         s3p1 = new javax.swing.JCheckBox();
+        REGRESAR = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -166,6 +167,11 @@ public class Parking1 extends javax.swing.JFrame {
                 s1p2StateChanged(evt);
             }
         });
+        s1p2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s1p2ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout s1p2RLayout = new javax.swing.GroupLayout(s1p2R);
         s1p2R.setLayout(s1p2RLayout);
@@ -190,6 +196,11 @@ public class Parking1 extends javax.swing.JFrame {
         s1p3.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 s1p3StateChanged(evt);
+            }
+        });
+        s1p3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s1p3ActionPerformed(evt);
             }
         });
 
@@ -218,6 +229,11 @@ public class Parking1 extends javax.swing.JFrame {
                 s1p4StateChanged(evt);
             }
         });
+        s1p4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s1p4ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout s1p4RLayout = new javax.swing.GroupLayout(s1p4R);
         s1p4R.setLayout(s1p4RLayout);
@@ -242,6 +258,11 @@ public class Parking1 extends javax.swing.JFrame {
         s1p5.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 s1p5StateChanged(evt);
+            }
+        });
+        s1p5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s1p5ActionPerformed(evt);
             }
         });
 
@@ -270,6 +291,11 @@ public class Parking1 extends javax.swing.JFrame {
                 s1p6StateChanged(evt);
             }
         });
+        s1p6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s1p6ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout s1p6RLayout = new javax.swing.GroupLayout(s1p6R);
         s1p6R.setLayout(s1p6RLayout);
@@ -295,6 +321,11 @@ public class Parking1 extends javax.swing.JFrame {
         s1p12.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 s1p12StateChanged(evt);
+            }
+        });
+        s1p12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s1p12ActionPerformed(evt);
             }
         });
 
@@ -354,6 +385,11 @@ public class Parking1 extends javax.swing.JFrame {
                 s1p8StateChanged(evt);
             }
         });
+        s1p8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s1p8ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout s1p8RLayout = new javax.swing.GroupLayout(s1p8R);
         s1p8R.setLayout(s1p8RLayout);
@@ -378,6 +414,11 @@ public class Parking1 extends javax.swing.JFrame {
         s1p9.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 s1p9StateChanged(evt);
+            }
+        });
+        s1p9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s1p9ActionPerformed(evt);
             }
         });
 
@@ -407,6 +448,11 @@ public class Parking1 extends javax.swing.JFrame {
                 s1p10StateChanged(evt);
             }
         });
+        s1p10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s1p10ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout s1p10RLayout = new javax.swing.GroupLayout(s1p10R);
         s1p10R.setLayout(s1p10RLayout);
@@ -432,6 +478,11 @@ public class Parking1 extends javax.swing.JFrame {
         s1p11.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 s1p11StateChanged(evt);
+            }
+        });
+        s1p11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s1p11ActionPerformed(evt);
             }
         });
 
@@ -553,6 +604,11 @@ public class Parking1 extends javax.swing.JFrame {
                 s2p2StateChanged(evt);
             }
         });
+        s2p2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s2p2ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout s2p2RLayout = new javax.swing.GroupLayout(s2p2R);
         s2p2R.setLayout(s2p2RLayout);
@@ -577,6 +633,11 @@ public class Parking1 extends javax.swing.JFrame {
         s2p3.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 s2p3StateChanged(evt);
+            }
+        });
+        s2p3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s2p3ActionPerformed(evt);
             }
         });
 
@@ -605,6 +666,11 @@ public class Parking1 extends javax.swing.JFrame {
                 s2p4StateChanged(evt);
             }
         });
+        s2p4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s2p4ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout s2p4RLayout = new javax.swing.GroupLayout(s2p4R);
         s2p4R.setLayout(s2p4RLayout);
@@ -631,6 +697,11 @@ public class Parking1 extends javax.swing.JFrame {
                 s2p5StateChanged(evt);
             }
         });
+        s2p5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s2p5ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout s2p5RLayout = new javax.swing.GroupLayout(s2p5R);
         s2p5R.setLayout(s2p5RLayout);
@@ -655,6 +726,11 @@ public class Parking1 extends javax.swing.JFrame {
         s2p6.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 s2p6StateChanged(evt);
+            }
+        });
+        s2p6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s2p6ActionPerformed(evt);
             }
         });
 
@@ -714,6 +790,11 @@ public class Parking1 extends javax.swing.JFrame {
                 s2p8StateChanged(evt);
             }
         });
+        s2p8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s2p8ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout s2p8RLayout = new javax.swing.GroupLayout(s2p8R);
         s2p8R.setLayout(s2p8RLayout);
@@ -738,6 +819,11 @@ public class Parking1 extends javax.swing.JFrame {
         s2p9.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 s2p9StateChanged(evt);
+            }
+        });
+        s2p9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s2p9ActionPerformed(evt);
             }
         });
 
@@ -767,6 +853,11 @@ public class Parking1 extends javax.swing.JFrame {
                 s2p10StateChanged(evt);
             }
         });
+        s2p10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s2p10ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout s2p10RLayout = new javax.swing.GroupLayout(s2p10R);
         s2p10R.setLayout(s2p10RLayout);
@@ -794,6 +885,11 @@ public class Parking1 extends javax.swing.JFrame {
                 s2p11StateChanged(evt);
             }
         });
+        s2p11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s2p11ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout s2p11RLayout = new javax.swing.GroupLayout(s2p11R);
         s2p11R.setLayout(s2p11RLayout);
@@ -819,6 +915,11 @@ public class Parking1 extends javax.swing.JFrame {
         s2p12.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 s2p12StateChanged(evt);
+            }
+        });
+        s2p12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s2p12ActionPerformed(evt);
             }
         });
 
@@ -939,6 +1040,11 @@ public class Parking1 extends javax.swing.JFrame {
                 s3p8StateChanged(evt);
             }
         });
+        s3p8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s3p8ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout s3p8RLayout = new javax.swing.GroupLayout(s3p8R);
         s3p8R.setLayout(s3p8RLayout);
@@ -963,6 +1069,11 @@ public class Parking1 extends javax.swing.JFrame {
         s3p9.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 s3p9StateChanged(evt);
+            }
+        });
+        s3p9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s3p9ActionPerformed(evt);
             }
         });
 
@@ -992,6 +1103,11 @@ public class Parking1 extends javax.swing.JFrame {
                 s3p10StateChanged(evt);
             }
         });
+        s3p10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s3p10ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout s3p10RLayout = new javax.swing.GroupLayout(s3p10R);
         s3p10R.setLayout(s3p10RLayout);
@@ -1019,15 +1135,20 @@ public class Parking1 extends javax.swing.JFrame {
                 s3p11StateChanged(evt);
             }
         });
+        s3p11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s3p11ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout s3p11RLayout = new javax.swing.GroupLayout(s3p11R);
         s3p11R.setLayout(s3p11RLayout);
         s3p11RLayout.setHorizontalGroup(
             s3p11RLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(s3p11RLayout.createSequentialGroup()
-                .addContainerGap()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, s3p11RLayout.createSequentialGroup()
+                .addContainerGap(14, Short.MAX_VALUE)
                 .addComponent(s3p11)
-                .addContainerGap(18, Short.MAX_VALUE))
+                .addGap(16, 16, 16))
         );
         s3p11RLayout.setVerticalGroup(
             s3p11RLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1044,6 +1165,11 @@ public class Parking1 extends javax.swing.JFrame {
         s3p12.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 s3p12StateChanged(evt);
+            }
+        });
+        s3p12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s3p12ActionPerformed(evt);
             }
         });
 
@@ -1072,6 +1198,11 @@ public class Parking1 extends javax.swing.JFrame {
                 s3p6StateChanged(evt);
             }
         });
+        s3p6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s3p6ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout s3p6RLayout = new javax.swing.GroupLayout(s3p6R);
         s3p6R.setLayout(s3p6RLayout);
@@ -1096,6 +1227,11 @@ public class Parking1 extends javax.swing.JFrame {
         s3p5.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 s3p5StateChanged(evt);
+            }
+        });
+        s3p5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s3p5ActionPerformed(evt);
             }
         });
 
@@ -1124,6 +1260,11 @@ public class Parking1 extends javax.swing.JFrame {
                 s3p4StateChanged(evt);
             }
         });
+        s3p4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s3p4ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout s3p4RLayout = new javax.swing.GroupLayout(s3p4R);
         s3p4R.setLayout(s3p4RLayout);
@@ -1150,6 +1291,11 @@ public class Parking1 extends javax.swing.JFrame {
                 s3p3StateChanged(evt);
             }
         });
+        s3p3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s3p3ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout s3p3RLayout = new javax.swing.GroupLayout(s3p3R);
         s3p3R.setLayout(s3p3RLayout);
@@ -1174,6 +1320,11 @@ public class Parking1 extends javax.swing.JFrame {
         s3p2.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 s3p2StateChanged(evt);
+            }
+        });
+        s3p2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s3p2ActionPerformed(evt);
             }
         });
 
@@ -1232,39 +1383,32 @@ public class Parking1 extends javax.swing.JFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                        .addComponent(s3p7R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(50, 50, 50))
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addComponent(s3p1R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(51, 51, 51)))
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(s3p2R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(s3p3R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addComponent(s3p8R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(29, 29, 29)
-                        .addComponent(s3p9R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(25, 25, 25)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(s3p10R, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s3p3R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(s3p4R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(1, 1, 1)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 17, Short.MAX_VALUE)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(s3p5R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(30, 30, 30))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s3p6R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(209, Short.MAX_VALUE))
                     .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addComponent(s3p7R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s3p8R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s3p9R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(s3p10R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(s3p11R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(31, 31, 31)))
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(s3p12R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(s3p6R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(91, 91, 91))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(s3p12R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1273,38 +1417,52 @@ public class Parking1 extends javax.swing.JFrame {
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(s3p6R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(s3p2R, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(s3p2R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(s3p1R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(s3p5R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(s3p4R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(s3p3R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 85, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 56, Short.MAX_VALUE)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(s3p9R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(s3p8R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(s3p7R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(s3p10R, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(s3p11R, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(s3p12R, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(s3p9R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(s3p8R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(s3p7R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(s3p10R, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(s3p11R, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(s3p12R, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(124, 124, 124))
         );
 
         jTabbedPane2.addTab("Sótano 3", jPanel3);
+
+        REGRESAR.setText("REGRESAR");
+        REGRESAR.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                REGRESARActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 697, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 697, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(REGRESAR, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(20, 20, 20)))
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 472, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addComponent(REGRESAR)
+                .addGap(18, 18, 18)
+                .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 443, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
@@ -1315,391 +1473,480 @@ public class Parking1 extends javax.swing.JFrame {
         this.setLocationRelativeTo(null);
     }//GEN-LAST:event_formWindowOpened
 
-    private void s1p1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s1p1ActionPerformed
+    private void s3p1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s3p1ActionPerformed
         // TODO add your handling code here:
+         boolean status = s3p1.isSelected();
+        if(status){
+            s3p1R.setBackground(Color.red);
+            selectParking();
+        }
+    }//GEN-LAST:event_s3p1ActionPerformed
+
+    private void s3p1StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p1StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_s3p1StateChanged
+
+    private void s3p2StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p2StateChanged
+
+    }//GEN-LAST:event_s3p2StateChanged
+
+    private void s3p3StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p3StateChanged
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_s3p3StateChanged
+
+    private void s3p4StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p4StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_s3p4StateChanged
+
+    private void s3p5StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p5StateChanged
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_s3p5StateChanged
+
+    private void s3p6StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p6StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_s3p6StateChanged
+
+    private void s3p12StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p12StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_s3p12StateChanged
+
+    private void s3p11StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p11StateChanged
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_s3p11StateChanged
+
+    private void s3p10StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p10StateChanged
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_s3p10StateChanged
+
+    private void s3p9StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p9StateChanged
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_s3p9StateChanged
+
+    private void s3p8StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p8StateChanged
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_s3p8StateChanged
+
+    private void s3p7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s3p7ActionPerformed
+        boolean status = s3p7.isSelected();
+        if(status){
+            s3p7R.setBackground(Color.red);
+            selectParking();
+        }
+    }//GEN-LAST:event_s3p7ActionPerformed
+
+    private void s3p7StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p7StateChanged
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_s3p7StateChanged
+
+    private void s2p12StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p12StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_s2p12StateChanged
+
+    private void s2p11StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p11StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_s2p11StateChanged
+
+    private void s2p10StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p10StateChanged
+
+    }//GEN-LAST:event_s2p10StateChanged
+
+    private void s2p9StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p9StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_s2p9StateChanged
+
+    private void s2p8StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p8StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_s2p8StateChanged
+
+    private void s2p7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s2p7ActionPerformed
+        // TODO add your handling code here:
+        boolean status = s2p7.isSelected();
+        if (status) {
+            s2p7R.setBackground(Color.red);
+            selectParking();
+        }
+    }//GEN-LAST:event_s2p7ActionPerformed
+
+    private void s2p7StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p7StateChanged
+
+    }//GEN-LAST:event_s2p7StateChanged
+
+    private void s2p6StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p6StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_s2p6StateChanged
+
+    private void s2p5StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p5StateChanged
+
+    }//GEN-LAST:event_s2p5StateChanged
+
+    private void s2p4StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p4StateChanged
+
+    }//GEN-LAST:event_s2p4StateChanged
+
+    private void s2p3StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p3StateChanged
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_s2p3StateChanged
+
+    private void s2p2StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p2StateChanged
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_s2p2StateChanged
+
+    private void s2p1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s2p1ActionPerformed
+        // TODO add your handling code here:
+        boolean status = s2p1.isSelected();
+        if(status){
+            s2p1R.setBackground(Color.red);
+            selectParking();
+        }
+    }//GEN-LAST:event_s2p1ActionPerformed
+
+    private void s2p1StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p1StateChanged
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_s2p1StateChanged
+
+    private void s1p11StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p11StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_s1p11StateChanged
+
+    private void s1p10StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p10StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_s1p10StateChanged
+
+    private void s1p9StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p9StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_s1p9StateChanged
+
+    private void s1p8StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p8StateChanged
+        // TODO add your handling code here:
+
+    }//GEN-LAST:event_s1p8StateChanged
+
+    private void s1p7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s1p7ActionPerformed
+        // TODO add your handling code here:
+        boolean status = s1p7.isSelected();
+        if(status){
+            s1p7R.setBackground(Color.red);
+            selectParking();
+        }
+    }//GEN-LAST:event_s1p7ActionPerformed
+
+    private void s1p7StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p7StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_s1p7StateChanged
+
+    private void s1p12StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p12StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_s1p12StateChanged
+
+    private void s1p6StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p6StateChanged
+        // TODO add your handling code here:
+
+    }//GEN-LAST:event_s1p6StateChanged
+
+    private void s1p5StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p5StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_s1p5StateChanged
+
+    private void s1p4StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p4StateChanged
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_s1p4StateChanged
+
+    private void s1p3StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p3StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_s1p3StateChanged
+
+    private void s1p2StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p2StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_s1p2StateChanged
+
+    private void s1p1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s1p1ActionPerformed
+        boolean status = s1p1.isSelected();
+        if(status){
+            s1p1R.setBackground(Color.red);
+            selectParking();
+        }
     }//GEN-LAST:event_s1p1ActionPerformed
 
     private void s1p1StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p1StateChanged
         // TODO add your handling code here:
-        boolean status = s1p1.isSelected();
-        if(status){
-            s1p1R.setBackground(Color.red);
-        }else{
-            s1p1R.setBackground(Color.green);
-        }
     }//GEN-LAST:event_s1p1StateChanged
 
-    private void s1p2StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p2StateChanged
+    private void s1p3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s1p3ActionPerformed
         // TODO add your handling code here:
-         boolean status = s1p2.isSelected();
-        if(status){
-            s1p2R.setBackground(Color.red);
-        }else{
-            s1p2R.setBackground(Color.green);
-        }
-    }//GEN-LAST:event_s1p2StateChanged
-
-    private void s1p3StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p3StateChanged
-        // TODO add your handling code here:
-         boolean status = s1p3.isSelected();
+        boolean status = s1p3.isSelected();
         if(status){
             s1p3R.setBackground(Color.red);
-        }else{
-            s1p3R.setBackground(Color.green);
+            selectParking();
         }
-    }//GEN-LAST:event_s1p3StateChanged
+    }//GEN-LAST:event_s1p3ActionPerformed
 
-    private void s1p4StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p4StateChanged
+    private void s1p2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s1p2ActionPerformed
         // TODO add your handling code here:
-         boolean status = s1p4.isSelected();
+        boolean status = s1p2.isSelected();
         if(status){
-            s1p4R.setBackground(Color.red);
-        }else{
-            s1p4R.setBackground(Color.green);
+            s1p2R.setBackground(Color.red);
+            selectParking();
         }
-    }//GEN-LAST:event_s1p4StateChanged
+    }//GEN-LAST:event_s1p2ActionPerformed
 
-    private void s1p5StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p5StateChanged
+    private void s1p4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s1p4ActionPerformed
         // TODO add your handling code here:
-         boolean status = s1p5.isSelected();
+        boolean status = s1p4.isSelected();
+        if (status) {
+            s1p4R.setBackground(Color.red);
+            selectParking();
+        }
+    }//GEN-LAST:event_s1p4ActionPerformed
+
+    private void s1p5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s1p5ActionPerformed
+        // TODO add your handling code here:
+        boolean status = s1p5.isSelected();
         if(status){
             s1p5R.setBackground(Color.red);
-        }else{
-            s1p5R.setBackground(Color.green);
+            selectParking();
         }
-    }//GEN-LAST:event_s1p5StateChanged
+    }//GEN-LAST:event_s1p5ActionPerformed
 
-    private void s1p6StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p6StateChanged
-        // TODO add your handling code here:
-         boolean status = s1p6.isSelected();
+    private void s1p6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s1p6ActionPerformed
+        boolean status = s1p6.isSelected();
         if(status){
             s1p6R.setBackground(Color.red);
-        }else{
-            s1p6R.setBackground(Color.green);
+            selectParking();
         }
-    }//GEN-LAST:event_s1p6StateChanged
+    }//GEN-LAST:event_s1p6ActionPerformed
 
-    private void s1p12StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p12StateChanged
-        // TODO add your handling code here:
-         boolean status = s1p12.isSelected();
-        if(status){
-            s1p12R.setBackground(Color.red);
-        }else{
-            s1p12R.setBackground(Color.green);
-        }
-    }//GEN-LAST:event_s1p12StateChanged
-
-    private void s1p7StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p7StateChanged
-        // TODO add your handling code here:
-         boolean status = s1p7.isSelected();
-        if(status){
-            s1p7R.setBackground(Color.red);
-        }else{
-            s1p7R.setBackground(Color.green);
-        }
-    }//GEN-LAST:event_s1p7StateChanged
-
-    private void s1p7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s1p7ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_s1p7ActionPerformed
-
-    private void s1p8StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p8StateChanged
+    private void s1p8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s1p8ActionPerformed
         // TODO add your handling code here:
          boolean status = s1p8.isSelected();
         if(status){
             s1p8R.setBackground(Color.red);
-        }else{
-            s1p8R.setBackground(Color.green);
+            selectParking();
         }
-    }//GEN-LAST:event_s1p8StateChanged
+    }//GEN-LAST:event_s1p8ActionPerformed
 
-    private void s1p9StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p9StateChanged
+    private void s1p9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s1p9ActionPerformed
         // TODO add your handling code here:
-         boolean status = s1p9.isSelected();
+        boolean status = s1p9.isSelected();
         if(status){
             s1p9R.setBackground(Color.red);
-        }else{
-            s1p9R.setBackground(Color.green);
+            selectParking();
         }
-    }//GEN-LAST:event_s1p9StateChanged
+    }//GEN-LAST:event_s1p9ActionPerformed
 
-    private void s1p10StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p10StateChanged
+    private void s1p10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s1p10ActionPerformed
         // TODO add your handling code here:
-         boolean status = s1p10.isSelected();
+        boolean status = s1p10.isSelected();
         if(status){
             s1p10R.setBackground(Color.red);
-        }else{
-            s1p10R.setBackground(Color.green);
+            selectParking();
         }
-    }//GEN-LAST:event_s1p10StateChanged
+    }//GEN-LAST:event_s1p10ActionPerformed
 
-    private void s1p11StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s1p11StateChanged
+    private void s1p11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s1p11ActionPerformed
         // TODO add your handling code here:
          boolean status = s1p11.isSelected();
         if(status){
             s1p11R.setBackground(Color.red);
-        }else{
-            s1p11R.setBackground(Color.green);
+            selectParking();
         }
-    }//GEN-LAST:event_s1p11StateChanged
+    }//GEN-LAST:event_s1p11ActionPerformed
 
-    private void s2p1StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p1StateChanged
+    private void s1p12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s1p12ActionPerformed
         // TODO add your handling code here:
-         boolean status = s2p1.isSelected();
+        boolean status = s1p12.isSelected();
         if(status){
-            s2p1R.setBackground(Color.red);
-        }else{
-            s2p1R.setBackground(Color.green);
+            s1p12R.setBackground(Color.red);
+            selectParking();
         }
-    }//GEN-LAST:event_s2p1StateChanged
+    }//GEN-LAST:event_s1p12ActionPerformed
 
-    private void s2p1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s2p1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_s2p1ActionPerformed
-
-    private void s2p2StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p2StateChanged
+    private void s2p2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s2p2ActionPerformed
         // TODO add your handling code here:
         boolean status = s2p2.isSelected();
         if(status){
             s2p2R.setBackground(Color.red);
-        }else{
-            s2p2R.setBackground(Color.green);
+            selectParking();
         }
-    }//GEN-LAST:event_s2p2StateChanged
+    }//GEN-LAST:event_s2p2ActionPerformed
 
-    private void s2p3StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p3StateChanged
+    private void s2p3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s2p3ActionPerformed
         // TODO add your handling code here:
         boolean status = s2p3.isSelected();
         if(status){
             s2p3R.setBackground(Color.red);
-        }else{
-            s2p3R.setBackground(Color.green);
+            selectParking();
         }
-    }//GEN-LAST:event_s2p3StateChanged
+    }//GEN-LAST:event_s2p3ActionPerformed
 
-    private void s2p4StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p4StateChanged
+    private void s2p4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s2p4ActionPerformed
         // TODO add your handling code here:
         boolean status = s2p4.isSelected();
         if(status){
             s2p4R.setBackground(Color.red);
-        }else{
-            s2p4R.setBackground(Color.green);
+            selectParking();
         }
-    }//GEN-LAST:event_s2p4StateChanged
+    }//GEN-LAST:event_s2p4ActionPerformed
 
-    private void s2p5StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p5StateChanged
-        // TODO add your handling code here:
+    private void s2p5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s2p5ActionPerformed
         boolean status = s2p5.isSelected();
         if(status){
             s2p5R.setBackground(Color.red);
-        }else{
-            s2p5R.setBackground(Color.green);
+            selectParking();
         }
-    }//GEN-LAST:event_s2p5StateChanged
+    }//GEN-LAST:event_s2p5ActionPerformed
 
-    private void s2p6StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p6StateChanged
-        // TODO add your handling code here:
+    private void s2p6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s2p6ActionPerformed
         boolean status = s2p6.isSelected();
         if(status){
             s2p6R.setBackground(Color.red);
-        }else{
-            s2p6R.setBackground(Color.green);
+            selectParking();
         }
-    }//GEN-LAST:event_s2p6StateChanged
+    }//GEN-LAST:event_s2p6ActionPerformed
 
-    private void s2p7StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p7StateChanged
-
-        boolean status = s2p7.isSelected();
-        if(status){
-            s2p7R.setBackground(Color.red);
-        }else{
-            s2p7R.setBackground(Color.green);
-        }
-    }//GEN-LAST:event_s2p7StateChanged
-
-    private void s2p7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s2p7ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_s2p7ActionPerformed
-
-    private void s2p8StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p8StateChanged
-        // TODO add your handling code here:
+    private void s2p8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s2p8ActionPerformed
         boolean status = s2p8.isSelected();
         if(status){
             s2p8R.setBackground(Color.red);
-        }else{
-            s2p8R.setBackground(Color.green);
+            selectParking();
         }
-    }//GEN-LAST:event_s2p8StateChanged
+    }//GEN-LAST:event_s2p8ActionPerformed
 
-    private void s2p9StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p9StateChanged
-        // TODO add your handling code here:
+    private void s2p9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s2p9ActionPerformed
         boolean status = s2p9.isSelected();
         if(status){
             s2p9R.setBackground(Color.red);
-        }else{
-            s2p9R.setBackground(Color.green);
+            selectParking();
         }
-    }//GEN-LAST:event_s2p9StateChanged
+    }//GEN-LAST:event_s2p9ActionPerformed
 
-    private void s2p10StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p10StateChanged
+    private void s3p2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s3p2ActionPerformed
         // TODO add your handling code here:
-        boolean status = s2p10.isSelected();
-        if(status){
-            s2p10R.setBackground(Color.red);
-        }else{
-            s2p10R.setBackground(Color.green);
-        }
-    }//GEN-LAST:event_s2p10StateChanged
-
-    private void s2p11StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p11StateChanged
-        // TODO add your handling code here:
-        boolean status = s2p11.isSelected();
-        if(status){
-            s2p11R.setBackground(Color.red);
-        }else{
-            s2p11R.setBackground(Color.green);
-        }
-    }//GEN-LAST:event_s2p11StateChanged
-
-    private void s2p12StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s2p12StateChanged
-        // TODO add your handling code here:
-        boolean status = s2p12.isSelected();
-        if(status){
-            s2p12R.setBackground(Color.red);
-        }else{
-            s2p12R.setBackground(Color.green);
-        }
-    }//GEN-LAST:event_s2p12StateChanged
-
-    private void s3p7StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p7StateChanged
-        // TODO add your handling code here:
-         boolean status = s3p7.isSelected();
-        if(status){
-            s3p7R.setBackground(Color.red);
-        }else{
-            s3p7R.setBackground(Color.green);
-        }
-    }//GEN-LAST:event_s3p7StateChanged
-
-    private void s3p7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s3p7ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_s3p7ActionPerformed
-
-    private void s3p8StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p8StateChanged
-        // TODO add your handling code here:
-         boolean status = s3p8.isSelected();
-        if(status){
-            s3p8R.setBackground(Color.red);
-        }else{
-            s3p8R.setBackground(Color.green);
-        }
-    }//GEN-LAST:event_s3p8StateChanged
-
-    private void s3p9StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p9StateChanged
-        // TODO add your handling code here:
-         boolean status = s3p9.isSelected();
-        if(status){
-            s3p9R.setBackground(Color.red);
-        }else{
-            s3p9R.setBackground(Color.green);
-        }
-    }//GEN-LAST:event_s3p9StateChanged
-
-    private void s3p10StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p10StateChanged
-        // TODO add your handling code here:
-         boolean status = s3p10.isSelected();
-        if(status){
-            s3p10R.setBackground(Color.red);
-        }else{
-            s3p10R.setBackground(Color.green);
-        }
-    }//GEN-LAST:event_s3p10StateChanged
-
-    private void s3p11StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p11StateChanged
-        // TODO add your handling code here:
-         boolean status = s3p11.isSelected();
-        if(status){
-            s3p11R.setBackground(Color.red);
-        }else{
-            s3p11R.setBackground(Color.green);
-        }
-    }//GEN-LAST:event_s3p11StateChanged
-
-    private void s3p12StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p12StateChanged
-        // TODO add your handling code here:
-         boolean status = s3p12.isSelected();
-        if(status){
-            s3p12R.setBackground(Color.red);
-        }else{
-            s3p12R.setBackground(Color.green);
-        }
-    }//GEN-LAST:event_s3p12StateChanged
-
-    private void s3p6StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p6StateChanged
-        // TODO add your handling code here:
-         boolean status = s3p6.isSelected();
-        if(status){
-            s3p6R.setBackground(Color.red);
-        }else{
-            s3p6R.setBackground(Color.green);
-        }
-    }//GEN-LAST:event_s3p6StateChanged
-
-    private void s3p5StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p5StateChanged
-        // TODO add your handling code here:
-         boolean status = s3p5.isSelected();
-        if(status){
-            s3p5R.setBackground(Color.red);
-        }else{
-            s3p5R.setBackground(Color.green);
-        }
-    }//GEN-LAST:event_s3p5StateChanged
-
-    private void s3p4StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p4StateChanged
-        // TODO add your handling code here:
-         boolean status = s3p4.isSelected();
-        if(status){
-            s3p4R.setBackground(Color.red);
-        }else{
-            s3p4R.setBackground(Color.green);
-        }
-    }//GEN-LAST:event_s3p4StateChanged
-
-    private void s3p3StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p3StateChanged
-        // TODO add your handling code here:
-         boolean status = s3p3.isSelected();
-        if(status){
-            s3p3R.setBackground(Color.red);
-        }else{
-            s3p3R.setBackground(Color.green);
-        }
-    }//GEN-LAST:event_s3p3StateChanged
-
-    private void s3p2StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p2StateChanged
-        // TODO add your handling code here:
-         boolean status = s3p2.isSelected();
+                // TODO add your handling code here:
+        boolean status = s3p2.isSelected();
         if(status){
             s3p2R.setBackground(Color.red);
-        }else{
-            s3p2R.setBackground(Color.green);
+            selectParking();
         }
-    }//GEN-LAST:event_s3p2StateChanged
+    }//GEN-LAST:event_s3p2ActionPerformed
 
-    private void s3p1StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_s3p1StateChanged
-        // TODO add your handling code here:
-        boolean status = s3p1.isSelected();
+    private void s3p3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s3p3ActionPerformed
+        boolean status = s3p3.isSelected();
         if(status){
-            s3p1R.setBackground(Color.red);
-        }else{
-            s3p1R.setBackground(Color.green);
+            s3p3R.setBackground(Color.red);
+            selectParking();
         }
-    }//GEN-LAST:event_s3p1StateChanged
+    }//GEN-LAST:event_s3p3ActionPerformed
 
-    private void s3p1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s3p1ActionPerformed
+    private void s3p4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s3p4ActionPerformed
+        boolean status = s3p4.isSelected();
+        if(status){
+            s3p4R.setBackground(Color.red);
+            selectParking();
+        }
+    }//GEN-LAST:event_s3p4ActionPerformed
+
+    private void s3p5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s3p5ActionPerformed
+        boolean status = s3p5.isSelected();
+        if(status){
+            s3p5R.setBackground(Color.red);
+            selectParking();
+        }
+    }//GEN-LAST:event_s3p5ActionPerformed
+
+    private void s3p6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s3p6ActionPerformed
+        boolean status = s3p6.isSelected();
+        if(status){
+            s3p6R.setBackground(Color.red);
+            selectParking();
+        }
+    }//GEN-LAST:event_s3p6ActionPerformed
+
+    private void s3p8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s3p8ActionPerformed
+        boolean status = s3p8.isSelected();
+        if(status){
+            s3p8R.setBackground(Color.red);
+            selectParking();
+        }
+    }//GEN-LAST:event_s3p8ActionPerformed
+
+    private void s3p9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s3p9ActionPerformed
+        boolean status = s3p9.isSelected();
+        if(status){
+            s3p9R.setBackground(Color.red);
+            selectParking();
+        }
+    }//GEN-LAST:event_s3p9ActionPerformed
+
+    private void s3p10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s3p10ActionPerformed
+        boolean status = s3p10.isSelected();
+        if(status){
+            s3p10R.setBackground(Color.red);
+            selectParking();
+        }
+    }//GEN-LAST:event_s3p10ActionPerformed
+
+    private void s3p11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s3p11ActionPerformed
+        boolean status = s3p11.isSelected();
+        if(status){
+            s3p11R.setBackground(Color.red);
+            selectParking();
+        }
+    }//GEN-LAST:event_s3p11ActionPerformed
+
+    private void s3p12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s3p12ActionPerformed
+        boolean status = s3p12.isSelected();
+        if(status){
+            s3p12R.setBackground(Color.red);
+            selectParking();
+        }
+    }//GEN-LAST:event_s3p12ActionPerformed
+
+    private void s2p10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s2p10ActionPerformed
+        boolean status = s2p10.isSelected();
+        if (status) {
+            s2p10R.setBackground(Color.red);
+            selectParking();
+        }
+    }//GEN-LAST:event_s2p10ActionPerformed
+
+    private void s2p11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s2p11ActionPerformed
+        boolean status = s2p11.isSelected();
+        if (status) {
+            s2p11R.setBackground(Color.red);
+            selectParking();
+        }
+    }//GEN-LAST:event_s2p11ActionPerformed
+
+    private void s2p12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s2p12ActionPerformed
+        boolean status = s2p12.isSelected();
+        if (status) {
+            s2p12R.setBackground(Color.red);
+            selectParking();
+        }
+    }//GEN-LAST:event_s2p12ActionPerformed
+
+    private void REGRESARActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_REGRESARActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_s3p1ActionPerformed
+        Main p1 = new Main();
+        p1.setVisible(true);
+        dispose();
 
-    private void selectParking(String a){
+    }//GEN-LAST:event_REGRESARActionPerformed
+
+    private void selectParking(){
+        ticket t = new ticket();
+        t.setVisible(true);        
     }
     /**
      * @param args the command line arguments
@@ -1737,6 +1984,7 @@ public class Parking1 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton REGRESAR;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;

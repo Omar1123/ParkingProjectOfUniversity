@@ -27,7 +27,14 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <Component id="jTabbedPane2" min="-2" pref="697" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jTabbedPane2" min="-2" pref="697" max="-2" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="REGRESAR" min="-2" pref="151" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -35,8 +42,10 @@
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <Component id="jTabbedPane2" min="-2" pref="472" max="-2" attributes="0"/>
-              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="REGRESAR" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Component id="jTabbedPane2" min="-2" pref="443" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -204,6 +213,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s1p2StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s1p2ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -242,6 +252,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s1p3StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s1p3ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -280,6 +291,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s1p4StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s1p4ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -318,6 +330,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s1p5StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s1p5ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -356,6 +369,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s1p6StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s1p6ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -397,6 +411,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s1p12StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s1p12ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -474,6 +489,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s1p8StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s1p8ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -512,6 +528,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s1p9StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s1p9ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -553,6 +570,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s1p10StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s1p10ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -594,6 +612,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s1p11StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s1p11ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -753,6 +772,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s2p2StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s2p2ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -791,6 +811,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s2p3StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s2p3ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -829,6 +850,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s2p4StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s2p4ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -867,6 +889,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s2p5StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s2p5ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -905,6 +928,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s2p6StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s2p6ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -982,6 +1006,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s2p8StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s2p8ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -1020,6 +1045,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s2p9StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s2p9ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -1061,6 +1087,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s2p10StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s2p10ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -1102,6 +1129,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s2p11StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s2p11ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -1143,6 +1171,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s2p12StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s2p12ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -1167,51 +1196,35 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="s3p7R" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
-                          </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="s3p1R" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                          <Group type="102" attributes="0">
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="s3p2R" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                               <Component id="s3p3R" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" attributes="0">
-                              <Component id="s3p8R" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                              <Component id="s3p9R" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="s3p10R" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
                               <Component id="s3p4R" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <EmptySpace pref="17" max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
                               <Component id="s3p5R" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="s3p6R" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="209" max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
+                              <Component id="s3p7R" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="s3p8R" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="s3p9R" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="s3p10R" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                               <Component id="s3p11R" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="s3p12R" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
                       </Group>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="s3p12R" min="-2" max="-2" attributes="0"/>
-                          <Component id="s3p6R" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -1222,23 +1235,23 @@
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Component id="s3p6R" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                              <Component id="s3p2R" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="s3p2R" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Component id="s3p1R" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Component id="s3p5R" min="-2" max="-2" attributes="0"/>
                           <Component id="s3p4R" min="-2" max="-2" attributes="0"/>
                           <Component id="s3p3R" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="85" max="32767" attributes="0"/>
+                      <EmptySpace pref="56" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                              <Component id="s3p9R" min="-2" max="-2" attributes="0"/>
-                              <Component id="s3p8R" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="s3p7R" min="-2" max="-2" attributes="0"/>
+                          <Component id="s3p9R" min="-2" max="-2" attributes="0"/>
+                          <Component id="s3p8R" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s3p7R" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="s3p10R" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="s3p11R" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="s3p12R" alignment="1" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="s3p10R" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="s3p11R" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="s3p12R" alignment="1" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="124" max="-2" attributes="0"/>
                   </Group>
@@ -1319,6 +1332,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s3p8StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s3p8ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -1357,6 +1371,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s3p9StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s3p9ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -1398,6 +1413,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s3p10StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s3p10ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -1415,10 +1431,10 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace pref="14" max="32767" attributes="0"/>
                           <Component id="s3p11" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="18" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1439,6 +1455,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s3p11StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s3p11ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -1480,6 +1497,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s3p12StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s3p12ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -1518,6 +1536,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s3p6StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s3p6ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -1556,6 +1575,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s3p5StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s3p5ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -1594,6 +1614,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s3p4StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s3p4ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -1632,6 +1653,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s3p3StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s3p3ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -1670,6 +1692,7 @@
                   </Properties>
                   <Events>
                     <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="s3p2StateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s3p2ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
@@ -1717,5 +1740,13 @@
         </Container>
       </SubComponents>
     </Container>
+    <Component class="javax.swing.JButton" name="REGRESAR">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="REGRESAR"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="REGRESARActionPerformed"/>
+      </Events>
+    </Component>
   </SubComponents>
 </Form>
