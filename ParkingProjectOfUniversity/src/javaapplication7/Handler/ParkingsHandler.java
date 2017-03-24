@@ -10,6 +10,9 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Random;
 /**
  *
@@ -32,21 +35,7 @@ public class ParkingsHandler {
         }
         
         return instance;
-    }
-    
-    private void newParking(String idParking, String username, int basement, 
-            int parking, String hour, String date) {
-               
-        this.createDB(PARKINGS);
-        
-    }
-    
-    private String generateParkingId() {
-        
-        random = new Random();
-        
-        return random.toString();
-    }    
+    }       
     
     private void createDB(File file) {                
         try {          
@@ -58,7 +47,7 @@ public class ParkingsHandler {
         } 
     } 
     
-    private void createParking(File file,String username, int basement, int parking) {
+    private void createParking(File file, int basement, int parking) {
         try {
           
             if(!file.exists()){  
@@ -67,12 +56,34 @@ public class ParkingsHandler {
             
             BufferedWriter writter =new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file,true), "utf-8"));
             
-            writter.write(username + "," + basement + "," + parking);
+            writter.write(this.generateParkingId() + "," + basement + "," + parking + this.getActualDate() + this.getActualTime());
             writter.close();
             
         } catch (Exception ex) {
           //Captura un posible error le imprime en pantalla 
             System.out.println(ex.getMessage());
         }         
-    }      
+    }  
+    
+    private String getActualDate() {
+        DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
+        Date date = new Date();
+        
+        return dateFormat.format(date);
+    }
+    
+    private String getActualTime() {
+        
+        DateFormat hourFormat = new SimpleDateFormat("HH:mm:ss");
+        Date date = new Date();
+        
+        return hourFormat.format(date);
+    }
+       
+    private String generateParkingId() {
+        
+        random = new Random();
+        
+        return random.toString();
+    }  
 }
