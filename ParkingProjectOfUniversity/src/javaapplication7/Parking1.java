@@ -6,6 +6,10 @@
 package javaapplication7;
 
 import java.awt.Color;
+import javax.swing.ImageIcon;
+import javax.swing.JLabel;
+import javax.swing.JLayeredPane;
+import javax.swing.JPanel;
 
 /**
  *
@@ -18,6 +22,13 @@ public class Parking1 extends javax.swing.JFrame {
      */
     public Parking1() {
         initComponents();
+        ((JPanel)getContentPane()).setOpaque(false); 
+        ImageIcon uno; 
+        uno = new ImageIcon(this.getClass().getResource("/images/asfalto.jpg"));
+        JLabel fondo= new JLabel(); 
+        fondo.setIcon(uno);
+        getLayeredPane().add(fondo,JLayeredPane.FRAME_CONTENT_LAYER); 
+        fondo.setBounds(0,0,uno.getIconWidth(),uno.getIconHeight());
     }
 
     /**
@@ -114,6 +125,7 @@ public class Parking1 extends javax.swing.JFrame {
         });
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel1.setOpaque(false);
 
         s1p1R.setBackground(new java.awt.Color(0, 255, 0));
 
@@ -291,14 +303,14 @@ public class Parking1 extends javax.swing.JFrame {
         s1p12RLayout.setHorizontalGroup(
             s1p12RLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, s1p12RLayout.createSequentialGroup()
-                .addContainerGap(14, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(s1p12)
                 .addGap(19, 19, 19))
         );
         s1p12RLayout.setVerticalGroup(
             s1p12RLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, s1p12RLayout.createSequentialGroup()
-                .addContainerGap(70, Short.MAX_VALUE)
+                .addContainerGap(66, Short.MAX_VALUE)
                 .addComponent(s1p12)
                 .addContainerGap())
         );
@@ -403,12 +415,12 @@ public class Parking1 extends javax.swing.JFrame {
             .addGroup(s1p10RLayout.createSequentialGroup()
                 .addGap(15, 15, 15)
                 .addComponent(s1p10)
-                .addContainerGap(18, Short.MAX_VALUE))
+                .addContainerGap(14, Short.MAX_VALUE))
         );
         s1p10RLayout.setVerticalGroup(
             s1p10RLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, s1p10RLayout.createSequentialGroup()
-                .addContainerGap(70, Short.MAX_VALUE)
+                .addContainerGap(66, Short.MAX_VALUE)
                 .addComponent(s1p10)
                 .addContainerGap())
         );
@@ -428,14 +440,14 @@ public class Parking1 extends javax.swing.JFrame {
         s1p11RLayout.setHorizontalGroup(
             s1p11RLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, s1p11RLayout.createSequentialGroup()
-                .addContainerGap(17, Short.MAX_VALUE)
+                .addContainerGap(14, Short.MAX_VALUE)
                 .addComponent(s1p11)
                 .addGap(16, 16, 16))
         );
         s1p11RLayout.setVerticalGroup(
             s1p11RLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, s1p11RLayout.createSequentialGroup()
-                .addContainerGap(70, Short.MAX_VALUE)
+                .addContainerGap(66, Short.MAX_VALUE)
                 .addComponent(s1p11)
                 .addContainerGap())
         );
@@ -477,14 +489,15 @@ public class Parking1 extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(20, 20, 20)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(s1p6R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(s1p5R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(s1p4R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(s1p3R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(s1p2R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(s1p1R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(s1p6R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(s1p5R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(s1p4R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(s1p3R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(s1p2R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(s1p1R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(77, 77, 77)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(s1p12R, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -498,6 +511,8 @@ public class Parking1 extends javax.swing.JFrame {
         );
 
         jTabbedPane2.addTab("Sótano 1", jPanel1);
+
+        jPanel2.setOpaque(false);
 
         s2p1R.setBackground(new java.awt.Color(0, 255, 0));
 
@@ -760,12 +775,12 @@ public class Parking1 extends javax.swing.JFrame {
             .addGroup(s2p10RLayout.createSequentialGroup()
                 .addGap(15, 15, 15)
                 .addComponent(s2p10)
-                .addContainerGap(18, Short.MAX_VALUE))
+                .addContainerGap(14, Short.MAX_VALUE))
         );
         s2p10RLayout.setVerticalGroup(
             s2p10RLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, s2p10RLayout.createSequentialGroup()
-                .addContainerGap(70, Short.MAX_VALUE)
+                .addContainerGap(66, Short.MAX_VALUE)
                 .addComponent(s2p10)
                 .addContainerGap())
         );
@@ -785,14 +800,14 @@ public class Parking1 extends javax.swing.JFrame {
         s2p11RLayout.setHorizontalGroup(
             s2p11RLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, s2p11RLayout.createSequentialGroup()
-                .addContainerGap(17, Short.MAX_VALUE)
+                .addContainerGap(14, Short.MAX_VALUE)
                 .addComponent(s2p11)
                 .addGap(16, 16, 16))
         );
         s2p11RLayout.setVerticalGroup(
             s2p11RLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, s2p11RLayout.createSequentialGroup()
-                .addContainerGap(70, Short.MAX_VALUE)
+                .addContainerGap(66, Short.MAX_VALUE)
                 .addComponent(s2p11)
                 .addContainerGap())
         );
@@ -812,14 +827,14 @@ public class Parking1 extends javax.swing.JFrame {
         s2p12RLayout.setHorizontalGroup(
             s2p12RLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, s2p12RLayout.createSequentialGroup()
-                .addContainerGap(14, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(s2p12)
                 .addGap(19, 19, 19))
         );
         s2p12RLayout.setVerticalGroup(
             s2p12RLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, s2p12RLayout.createSequentialGroup()
-                .addContainerGap(70, Short.MAX_VALUE)
+                .addContainerGap(66, Short.MAX_VALUE)
                 .addComponent(s2p12)
                 .addContainerGap())
         );
@@ -882,6 +897,8 @@ public class Parking1 extends javax.swing.JFrame {
         );
 
         jTabbedPane2.addTab("Sótano 2", jPanel2);
+
+        jPanel3.setOpaque(false);
 
         s3p7R.setBackground(new java.awt.Color(0, 255, 0));
 
@@ -983,12 +1000,12 @@ public class Parking1 extends javax.swing.JFrame {
             .addGroup(s3p10RLayout.createSequentialGroup()
                 .addGap(15, 15, 15)
                 .addComponent(s3p10)
-                .addContainerGap(18, Short.MAX_VALUE))
+                .addContainerGap(14, Short.MAX_VALUE))
         );
         s3p10RLayout.setVerticalGroup(
             s3p10RLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, s3p10RLayout.createSequentialGroup()
-                .addContainerGap(70, Short.MAX_VALUE)
+                .addContainerGap(66, Short.MAX_VALUE)
                 .addComponent(s3p10)
                 .addContainerGap())
         );
@@ -1008,14 +1025,14 @@ public class Parking1 extends javax.swing.JFrame {
         s3p11RLayout.setHorizontalGroup(
             s3p11RLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, s3p11RLayout.createSequentialGroup()
-                .addContainerGap(17, Short.MAX_VALUE)
+                .addContainerGap(14, Short.MAX_VALUE)
                 .addComponent(s3p11)
                 .addGap(16, 16, 16))
         );
         s3p11RLayout.setVerticalGroup(
             s3p11RLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, s3p11RLayout.createSequentialGroup()
-                .addContainerGap(70, Short.MAX_VALUE)
+                .addContainerGap(66, Short.MAX_VALUE)
                 .addComponent(s3p11)
                 .addContainerGap())
         );
@@ -1035,14 +1052,14 @@ public class Parking1 extends javax.swing.JFrame {
         s3p12RLayout.setHorizontalGroup(
             s3p12RLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, s3p12RLayout.createSequentialGroup()
-                .addContainerGap(14, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(s3p12)
                 .addGap(19, 19, 19))
         );
         s3p12RLayout.setVerticalGroup(
             s3p12RLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, s3p12RLayout.createSequentialGroup()
-                .addContainerGap(70, Short.MAX_VALUE)
+                .addContainerGap(66, Short.MAX_VALUE)
                 .addComponent(s3p12)
                 .addContainerGap())
         );
@@ -1277,7 +1294,7 @@ public class Parking1 extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 336, Short.MAX_VALUE)
+            .addComponent(jTabbedPane2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 336, Short.MAX_VALUE)
         );
 
         pack();
