@@ -22,8 +22,7 @@ public class ParkingsHandler {
     
     private static ParkingsHandler instance;
     public Random random = new Random();
-    private File PARKINGS = new File("/Users/jake/NetBeansProjects/JavaApplication7/src/javaapplication7/Handler/parking.txt");
-    private int[][][] logicParking = new int[1][2][1];    
+    public File PARKINGS = new File("/Users/jake/NetBeansProjects/ParkingProjectOfUniversity/src/javaapplication7/Handler/parking.txt");  
     
     private ParkingsHandler() {
     
@@ -38,7 +37,7 @@ public class ParkingsHandler {
         return instance;
     }       
     
-    private void createDB(File file) {                
+    public void createDB(File file) {                
         try {          
             if(!file.exists()){
                 file.createNewFile();
@@ -46,19 +45,21 @@ public class ParkingsHandler {
         } catch (IOException ex) {            
             System.out.println(ex.getMessage());
         } 
-    } 
+    }                  
     
-    private void createParking(File file, int basement, int parking) {
+    public void createParking(String name, int basement, int parking) {
         try {
           
-            if(!file.exists()){  
-                file.createNewFile();
+            if(!PARKINGS.exists()){  
+                PARKINGS.createNewFile();
             }
             
-            BufferedWriter writter =new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file,true), "utf-8"));
+            BufferedWriter writter =new BufferedWriter(new OutputStreamWriter(new FileOutputStream(PARKINGS,true), "utf-8"));
             
-            writter.write(this.generateParkingId() + "," + basement + "," + parking + this.getActualDate() + this.getActualTime());
+            writter.write(this.generateParkingId() + "," + name + "," + basement + "," + parking + "," + this.getActualDate() + "," + this.getActualTime() + "\r\n");
             writter.close();
+            
+            System.out.println("SE ha generado el log");
             
         } catch (Exception ex) {
           //Captura un posible error le imprime en pantalla 
@@ -66,14 +67,14 @@ public class ParkingsHandler {
         }         
     }  
     
-    private String getActualDate() {
+    public String getActualDate() {
         DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
         Date date = new Date();
         
         return dateFormat.format(date);
     }
     
-    private String getActualTime() {
+    public String getActualTime() {
         
         DateFormat hourFormat = new SimpleDateFormat("HH:mm:ss");
         Date date = new Date();
@@ -81,31 +82,11 @@ public class ParkingsHandler {
         return hourFormat.format(date);
     }
        
-    private String generateParkingId() {
+    public String generateParkingId() {
         
         random = new Random();
+        int number = random.nextInt();
         
-        return random.toString();
-    }  
-    
-    private void fillBasements() {        
-        for(int basement = 0; basement <= 3; basement++) {
-            for(int parking = 0; parking <= 11; parking++) {            
-                for(int place = 0; place <= 1; place++) {                        
-                    logicParking[basement][parking][place] = place;
-                }
-            }
-        }            
-    }
-    
-    private void showBasements() {
-        for(int basement = 0; basement <= 3; basement++) {
-            for(int parking = 0; parking <= 11; parking++) {            
-                for(int place = 0; place <= 1; place++) {                        
-                    System.out.println(logicParking[basement][parking][place]);
-                }
-            }
-        }             
-    }
-    
+        return Integer.toString(number);
+    }      
 }

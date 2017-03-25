@@ -1941,7 +1941,6 @@ public class Parking1 extends javax.swing.JFrame {
         Main p1 = new Main();
         p1.setVisible(true);
         dispose();
-
     }//GEN-LAST:event_REGRESARActionPerformed
 
     private void selectParking(){

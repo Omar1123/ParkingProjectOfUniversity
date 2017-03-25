@@ -28,7 +28,6 @@ public class Main extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jAASLoginService1 = new org.jdesktop.swingx.auth.JAASLoginService();
         textFieldRound1 = new org.edisoncor.gui.textField.TextFieldRound();
         panelRect1 = new org.edisoncor.gui.panel.PanelRect();
         jButton1 = new javax.swing.JButton();
@@ -209,7 +208,6 @@ public class Main extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private org.edisoncor.gui.varios.ClockDigital clockDigital1;
     private org.edisoncor.gui.varios.ClockFace clockFace1;
-    private org.jdesktop.swingx.auth.JAASLoginService jAASLoginService1;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private org.edisoncor.gui.label.LabelHeader labelHeader1;

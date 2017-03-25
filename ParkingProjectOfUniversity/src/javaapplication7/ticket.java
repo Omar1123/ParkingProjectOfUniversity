@@ -5,6 +5,9 @@
  */
 package javaapplication7;
 
+import javaapplication7.Handler.ParkingsHandler;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author leif2038
@@ -41,13 +44,14 @@ public class ticket extends javax.swing.JFrame {
         });
 
         buttonRect1.setText("GENERAR TICKET");
+        buttonRect1.setActionCommand("GENERAR");
         buttonRect1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buttonRect1ActionPerformed(evt);
             }
         });
 
-        labelHeader1.setText("Ingrese placa:");
+        labelHeader1.setText("Ingrese su nombre:");
 
         javax.swing.GroupLayout panelRect1Layout = new javax.swing.GroupLayout(panelRect1);
         panelRect1.setLayout(panelRect1Layout);
@@ -94,7 +98,15 @@ public class ticket extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void buttonRect1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonRect1ActionPerformed
-        this.setVisible(false);
+        
+        String getPlacaNumber = textField1.getText();
+        
+        ParkingsHandler.getInstancia().createParking(getPlacaNumber,1,1);
+        JOptionPane.showMessageDialog(null, "Se ha generado su ticket con hora de entrada a las " + ParkingsHandler.getInstancia().getActualTime() + " Recuerde que su ticket vence en 10 mins");        
+        
+        Main p1 = new Main();
+        p1.setVisible(true);
+        dispose();
     }//GEN-LAST:event_buttonRect1ActionPerformed
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
@@ -134,8 +146,8 @@ public class ticket extends javax.swing.JFrame {
             public void run() {
                 new ticket().setVisible(true);
             }
-        });
-    }
+        });                
+    }                
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private org.edisoncor.gui.button.ButtonRect buttonRect1;

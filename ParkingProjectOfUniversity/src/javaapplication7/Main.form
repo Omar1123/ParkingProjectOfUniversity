@@ -2,8 +2,6 @@
 
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <NonVisualComponents>
-    <Component class="org.jdesktop.swingx.auth.JAASLoginService" name="jAASLoginService1">
-    </Component>
     <Component class="org.edisoncor.gui.textField.TextFieldRound" name="textFieldRound1">
       <Properties>
         <Property name="text" type="java.lang.String" value="textFieldRound1"/>
