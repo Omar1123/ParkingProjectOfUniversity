@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.Random;
 /**
@@ -23,6 +24,9 @@ public class ParkingsHandler {
     private static ParkingsHandler instance;
     public Random random = new Random();
     public File PARKINGS = new File("/Users/jake/NetBeansProjects/ParkingProjectOfUniversity/src/javaapplication7/Handler/parking.txt");  
+    private ArrayList basement1 = new ArrayList();
+    private ArrayList basement2 = new ArrayList();
+    private ArrayList basement3 = new ArrayList();
     
     private ParkingsHandler() {
     
