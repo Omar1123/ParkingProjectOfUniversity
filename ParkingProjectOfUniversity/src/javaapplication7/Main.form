@@ -184,10 +184,13 @@
           </Properties>
         </Component>
         <Component class="org.edisoncor.gui.textField.TextField" name="noticket">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="noticketActionPerformed"/>
+          </Events>
         </Component>
         <Component class="org.edisoncor.gui.label.LabelHeader" name="labelHeader1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Ingrese No. Ticket:"/>
+            <Property name="text" type="java.lang.String" value="Ingrese su nombre:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="jButton2">

@@ -5,9 +5,11 @@
  */
 package javaapplication7.Handler;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.text.DateFormat;
@@ -15,6 +17,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Random;
+import javax.swing.JOptionPane;
 /**
  *
  * @author jake
@@ -23,7 +26,8 @@ public class ParkingsHandler {
     
     private static ParkingsHandler instance;
     public Random random = new Random();
-    public File PARKINGS = new File("/Users/jake/NetBeansProjects/ParkingProjectOfUniversity/src/javaapplication7/Handler/parking.txt");  
+    public File PARKINGS = new File("/root/NetBeansProjects/ParkingProjectOfUniversity/src/javaapplication7/Handler/parking.txt");  
+    public double payForParking = 20.5;
     private ArrayList basement1 = new ArrayList();
     private ArrayList basement2 = new ArrayList();
     private ArrayList basement3 = new ArrayList();
@@ -63,7 +67,7 @@ public class ParkingsHandler {
             writter.write(this.generateParkingId() + "," + name + "," + basement + "," + parking + "," + this.getActualDate() + "," + this.getActualTime() + "\r\n");
             writter.close();
             
-            System.out.println("SE ha generado el log");
+            System.out.println("Se ha generado el log");
             
         } catch (Exception ex) {
           //Captura un posible error le imprime en pantalla 
@@ -93,4 +97,28 @@ public class ParkingsHandler {
         
         return Integer.toString(number);
     }      
+    
+    public void searchInParking(String name) {
+        try {
+    
+            BufferedReader buffer = new BufferedReader(new FileReader(PARKINGS));                
+            String lines;           
+            
+            while((lines = buffer.readLine())!= null) {
+                if(lines.indexOf(",")!= -1){
+                    if (lines.split(",")[1].equalsIgnoreCase(name)) {                        
+                        System.out.println("Hora: " + lines.split(",")[4]);
+                        System.out.println("Fecha: " + lines.split(",")[5]);                        
+                        
+                        JOptionPane.showMessageDialog(null, "Su hora de entradas fue: " + lines.split(",")[5] + " en el parqueo " + lines.split(",")[2] + " del sotano " + lines.split(",")[3]);        
+                        JOptionPane.showMessageDialog(null, "Su total a pagar es: " + payForParking + " Q");        
+                    } 
+                }
+            }
+
+            buffer.close();
+        } catch(Exception ex) {
+            System.out.println("Error in the lecture");
+        }        
+    }
 }

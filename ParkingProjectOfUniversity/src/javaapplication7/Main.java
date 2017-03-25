@@ -5,6 +5,9 @@
  */
 package javaapplication7;
 
+import javaapplication7.Handler.ParkingsHandler;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Alvarados
@@ -68,7 +71,13 @@ public class Main extends javax.swing.JFrame {
         textField1.setEditable(false);
         textField1.setText("BIENVENIDO A UMG");
 
-        labelHeader1.setText("Ingrese No. Ticket:");
+        noticket.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                noticketActionPerformed(evt);
+            }
+        });
+
+        labelHeader1.setText("Ingrese su nombre:");
 
         jButton2.setText("Seleccionar Parqueo");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -184,11 +193,11 @@ public class Main extends javax.swing.JFrame {
     }//GEN-LAST:event_formComponentShown
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-        factura p1 = new factura();
-        p1.setVisible(true);
-        dispose();
+        // TODO add your handling code here:    
         
+        String getPlacaNumber = noticket.getText();
+        
+        ParkingsHandler.getInstancia().searchInParking(getPlacaNumber);        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -196,6 +205,10 @@ public class Main extends javax.swing.JFrame {
         p1.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void noticketActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_noticketActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_noticketActionPerformed
 
     /**
      * @param args the command line arguments
